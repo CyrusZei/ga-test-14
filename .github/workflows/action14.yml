@@ -1,7 +1,7 @@
 name: My workspace 14
 
 on:
-  push:
+  workflow_dispatch:
 
 jobs:
   my-awesome-cool-github-action:
