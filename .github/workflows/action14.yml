@@ -5,7 +5,7 @@ on:
 
 jobs:
   my-awesome-cool-github-action:
-  runs-on: ubuntu-latest
-  steps:
-    - name: yay print
-      run: echo "yay"
+    runs-on: ubuntu-latest
+    steps:
+      - name: yay print
+        run: echo "yay"
