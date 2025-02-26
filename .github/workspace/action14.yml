@@ -1,0 +1,10 @@
+name:My workspace 14
+on:
+  push:
+
+jobs:
+  my-awesome-cool-github-action:
+  runs-on: ubuntu-latest
+  steps:
+    - name: yay print
+      run: echo "yay"
